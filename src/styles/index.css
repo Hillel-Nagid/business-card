@@ -1,0 +1,17 @@
+@font-face {
+	src: url('../../static/DIGITALDREAMFAT.ttf');
+	font-family: digitalDream;
+}
+
+.main {
+	width: 85vw;
+	margin: 0 auto;
+	padding: 6vh 0;
+}
+.job {
+	text-align: center;
+	font-family: digitalDream;
+	color: #0eeb0e;
+	font-size: 3.5vw;
+	margin-top: 24vw;
+}
