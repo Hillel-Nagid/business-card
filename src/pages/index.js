@@ -1,5 +1,6 @@
 import React from 'react';
 import Circle from '../components/circle/Circle.js';
+import Contact from '../components/contact/Contact.js';
 import '../styles/index.css';
 import write from '../helpers';
 import { useState } from 'react';
@@ -17,6 +18,7 @@ export default function Main() {
 		<div className='main'>
 			<Circle></Circle>
 			<h1 className='job'>{jobName[0]}</h1>
+			<Contact />
 		</div>
 	);
 }

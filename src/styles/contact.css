@@ -1,0 +1,58 @@
+@font-face {
+	src: url(../../static/FiraCode-SemiBold.ttf);
+	font-family: fira-code;
+}
+
+.contact {
+	position: absolute;
+	bottom: 0;
+	width: 85vw;
+	display: grid;
+	grid-template-columns: 2fr 1fr 2fr;
+	text-align: center;
+}
+
+.contact p {
+	font-family: fira-code;
+	color: aliceblue;
+	font-size: 2vw;
+	text-shadow: #f40000 0 0 7px;
+}
+
+.contact p:hover {
+	animation: shadow-hover 1s linear infinite;
+}
+
+@keyframes shadow-hover {
+	0% {
+		text-shadow: #f40000 0 0 7px;
+	}
+	50% {
+		text-shadow: #f40000 0 0 30px;
+	}
+	100% {
+		text-shadow: #f40000 0 0 7px;
+	}
+}
+.email,
+.phone,
+.title {
+	margin-bottom: 0vh;
+	opacity: 0;
+	animation: popup 1.5s ease-in-out 9s forwards;
+}
+
+@keyframes popup {
+	to {
+		margin-bottom: 10vh;
+		opacity: 1;
+	}
+}
+
+.title {
+	font-family: fira-code;
+	color: aliceblue;
+	font-size: 2.2vw;
+	text-shadow: #0eeb0e 0 0 20px;
+	cursor: context-menu;
+}
