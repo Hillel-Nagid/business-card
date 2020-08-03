@@ -1,6 +1,7 @@
 import React from 'react';
 import Circle from '../components/circle/Circle.js';
 import Contact from '../components/contact/Contact.js';
+import Helmet from 'react-helmet';
 import '../styles/index.css';
 import write from '../helpers';
 import { useState } from 'react';
@@ -16,6 +17,10 @@ export default function Main() {
 	}, []);
 	return (
 		<div className='main'>
+			<Helmet>
+				<meta charSet='utf-8' />
+				<title>Hillel Nagid</title>
+			</Helmet>
 			<Circle></Circle>
 			<h1 className='job'>{jobName[0]}</h1>
 			<Contact />
