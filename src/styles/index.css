@@ -16,3 +16,12 @@
 	margin-top: 24vw;
 	height: 3.5vw;
 }
+
+@media screen and (max-width: 1080px) {
+	.job {
+		font-size: 10vw;
+		margin-top: 92vw;
+		height: 12vw;
+		line-height: 1.2em;
+	}
+}

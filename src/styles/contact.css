@@ -56,3 +56,35 @@
 	text-shadow: #0eeb0e 0 0 20px;
 	cursor: context-menu;
 }
+
+@media screen and (max-width: 1080px) {
+	.contact {
+		grid-template-columns: auto;
+		bottom: 5vh;
+	}
+
+	.contact p {
+		font-size: 5.5vw;
+	}
+
+	@keyframes popup {
+		to {
+			margin-bottom: 2vh;
+			opacity: 1;
+		}
+	}
+
+	.email,
+	.phone {
+		border-bottom: 1px solid transparent;
+		box-shadow: #194bd8 0 0 20px;
+		border-radius: 5em;
+	}
+	.title {
+		font-size: 6vw;
+		text-shadow: #0eeb0e 0 0 20px;
+		cursor: context-menu;
+		grid-row: 1;
+		padding-bottom: 4vh;
+	}
+}

@@ -11,7 +11,7 @@ export default function Main() {
 	const job = 'FRONTEND DEVELOPER';
 	const jobName = useState('');
 	useEffect(() => {
-		const timer = setTimeout(() => write(jobName, 0, job, 100), 7000);
+		const timer = setTimeout(() => write(jobName, 0, job, 100), 6000);
 		return () => clearTimeout(timer);
 		// eslint-disable-next-line
 	}, []);
