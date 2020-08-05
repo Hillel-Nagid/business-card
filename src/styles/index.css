@@ -18,10 +18,13 @@
 }
 
 @media screen and (max-width: 1080px) {
+	.main {
+		padding: 3vh 0;
+	}
 	.job {
-		font-size: 10vw;
-		margin-top: 92vw;
-		height: 12vw;
-		line-height: 1.2em;
+		font-size: 8vw;
+		margin-top: 80vw;
+		height: 10vw;
+		line-height: 1.5em;
 	}
 }
