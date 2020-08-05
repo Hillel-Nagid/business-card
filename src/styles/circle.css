@@ -64,11 +64,11 @@
 }
 @media screen and (max-width: 1080px) {
 	.circle {
-		width: 80%;
+		width: 40vh;
 	}
 	.circle h1 {
 		margin-top: 35%;
 		left: 3vw;
-		font-size: 9vw;
+		font-size: 5vh;
 	}
 }
