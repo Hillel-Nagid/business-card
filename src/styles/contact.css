@@ -37,9 +37,9 @@
 .email,
 .phone,
 .title {
-	margin-bottom: 0vh;
-	opacity: 0;
-	animation: popup 1.5s ease-in-out 9s forwards;
+	margin-bottom: 2vh;
+	opacity: 01;
+	/*animation: popup 1.5s ease-in-out 9s forwards;*/
 }
 
 @keyframes popup {
@@ -64,7 +64,7 @@
 	}
 
 	.contact p {
-		font-size: 3vh;
+		font-size: 5.5vw;
 	}
 
 	@keyframes popup {
@@ -81,15 +81,23 @@
 		border-radius: 5em;
 	}
 	.title {
-		font-size: 3.5vh;
+		font-size: 6vw;
 		text-shadow: #0eeb0e 0 0 20px;
 		cursor: context-menu;
 		grid-row: 1;
 		padding-bottom: 4vh;
 	}
-}
-@media screen and (max-height: 1200px) {
-	.title {
-		display: none;
+	@media screen and (max-height: 1200px) {
+		.title {
+			display: none;
+		}
+	}
+	@media screen and (orientation: landscape) {
+		.contact p {
+			font-size: 3vh;
+		}
+		.title {
+			font-size: 3.5vh;
+		}
 	}
 }
