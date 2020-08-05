@@ -60,7 +60,7 @@
 @media screen and (max-width: 1080px) {
 	.contact {
 		grid-template-columns: auto;
-		bottom: 5vh;
+		bottom: 3vh;
 	}
 
 	.contact p {

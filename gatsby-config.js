@@ -13,8 +13,8 @@ module.exports = {
 				name: `Business Card`,
 				short_name: `Hillel Nagid`,
 				start_url: `/`,
-				background_color: `#000000`,
-				theme_color: `#0eeb0e`,
+				background_color: `#0eeb0e`,
+				theme_color: `#000000`,
 				// Enables "Add to Homescreen" prompt and disables browser UI (including back button)
 				// see https://developers.google.com/web/fundamentals/web-app-manifest/#display
 				display: `standalone`,
